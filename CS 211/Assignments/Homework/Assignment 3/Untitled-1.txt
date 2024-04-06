@@ -1,0 +1,129 @@
+if (el < currVal) //go to left subtree
+        {
+            tempPtr = tempPtr->getLeftChild();
+            currVal = tempPtr->getEl();
+
+            while (tempPtr != NULL) //search until found
+            {
+                if (el < currVal)
+                {
+                    prevPtr = tempPtr;
+                    tempPtr = tempPtr->getLeftChild();
+                    currVal = tempPtr->getEl();
+                }
+
+                else if (el > currVal)
+                {
+                    prevPtr = tempPtr;
+                    tempPtr = tempPtr->getRightChild();
+                    currVal = tempPtr->getEl();
+                }
+
+                else //assume value is found
+                {
+                    if (tempPtr->getRightChild() == NULL)   //no right child
+                    {
+                        if (prevPtr->getRightChild() == tempPtr)
+                        {
+                            prevPtr->setRightChild((tempPtr->getLeftChild()));
+                            delete tempPtr;
+                            tempPtr = NULL;
+                        }
+
+                        else
+                        {
+                            prevPtr->setLeftChild((tempPtr->getLeftChild()));
+                            delete tempPtr;
+                            tempPtr = NULL;
+                        }
+
+                        return true;
+                    }
+
+                    else if (tempPtr->getLeftChild() == NULL)   //no left child
+                    {
+                        if (prevPtr->getRightChild() == tempPtr)
+                        {
+                            prevPtr->setRightChild((tempPtr->getRightChild()));
+                            delete tempPtr;
+                            tempPtr = NULL;
+                        }
+
+                        else
+                        {
+                            prevPtr->setLeftChild((tempPtr->getRightChild()));
+                            delete tempPtr;
+                            tempPtr = NULL;
+                        }
+
+                        return true;
+                    }
+
+                    else //safe to assume node has two children
+                    {
+                        BSTNode *deleteMe = tempPtr; //make a copy of node to delete
+                    }
+                }
+            }
+        }
+
+        return false;
+
+
+
+
+
+        bool delRecursive(BSTNode *nodePtr, T el)
+    {
+        if (el < nodePtr->getEl()) 
+        {
+            if (nodePtr->getLeftChild() != NULL)
+                return delRecursive((nodePtr->getLeftChild()), el);
+
+            else
+                return false;
+        } 
+
+        else if (el > nodePtr->getEl()) 
+        {
+            if (nodePtr->getRightChild() != NULL)
+                return delRecursive((nodePtr->getRightChild()), el);
+
+            else
+                return false;
+        } 
+      
+        else 
+        {
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+    prevPtr = tempPtr;
+                        tempPtr = tempPtr->getRightChild();
+        
+                        while (tempPtr != NULL)
+                        {
+                            if (tempPtr->getRightChild() != NULL)
+                            {
+                                prevPtr = tempPtr;
+                                tempPtr = tempPtr->getRightChild();
+                            }
+
+                            else
+                            {
+                                deleteMe = prevPtr->getLeftChild();
+                                break;
+                            }
+                        }
+                        tempPtr->setEl(deleteMe->getEl());
+                        prevPtr->setLeftChild(NULL); //delete duplicate node;
+                        return true;
