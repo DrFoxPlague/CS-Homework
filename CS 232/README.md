@@ -1,2 +1,2 @@
 # CS 232 - Python Programming
-Intro to Python
+Intro to Python.
