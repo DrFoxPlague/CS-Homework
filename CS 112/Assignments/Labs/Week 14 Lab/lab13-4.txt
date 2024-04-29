@@ -1,0 +1,11 @@
+commit 6c90ff22bb366ea6821d14f6b87e2aeb21acce76
+Author: Peter <longlamp99@gmail.com>
+Date:   Fri Apr 29 20:50:42 2022 +0000
+
+    Lab 14 Commit (after makefile)
+
+commit a5190cb9b54122683cd6e9b1149886322a14d4cc
+Author: Peter <longlamp99@gmail.com>
+Date:   Fri Apr 29 20:28:35 2022 +0000
+
+    Lab14 commit
