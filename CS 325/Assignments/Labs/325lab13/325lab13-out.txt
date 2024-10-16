@@ -1,0 +1,117 @@
+By: Dakota Donner
+
+===
+Lab problem 1:
+===
+
+View dropped.
+
+
+View created.
+
+===
+Lab problem 2:
+===
+
+EMPL_LAST_NAME      SALARY                                                      
+--------------- ----------                                                      
+King                  5000                                                      
+Jones                 2975                                                      
+Blake                 2850                                                      
+Raimi                 2450                                                      
+Ford                  3000                                                      
+Smith                  800                                                      
+Michaels              1600                                                      
+Ward                  1250                                                      
+Martin                1250                                                      
+Scott                 3000                                                      
+Turner                1500                                                      
+
+EMPL_LAST_NAME      SALARY                                                      
+--------------- ----------                                                      
+Adams                 1100                                                      
+James                  950                                                      
+Miller                1300                                                      
+
+14 rows selected.
+
+===
+Lab problem 3:
+===
+
+MAX(SALARY)                                                                     
+-----------                                                                     
+       5000                                                                     
+
+===
+Lab problem 4:
+===
+
+View dropped.
+
+
+View created.
+
+===
+Lab problem 5:
+===
+
+JOB_TITLE  EARLIEST_                                                            
+---------- ---------                                                            
+Manager    02-APR-12                                                            
+Analyst    03-DEC-12                                                            
+Clerk      17-DEC-12                                                            
+President  17-NOV-11                                                            
+Sales      20-FEB-18                                                            
+
+===
+Lab problem 6:
+===
+
+MAX(EARLI                                                                       
+---------                                                                       
+20-FEB-18                                                                       
+
+===
+Lab problem 7:
+===
+
+View dropped.
+
+
+View created.
+
+===
+Lab problem 8:
+===
+
+CUSTOMER                              REPD_BY         DEPT_LOC                  
+------------------------------------- --------------- ---------------           
+Firstly, First                        Michaels        Chicago                   
+Secondly, Second                      Martin          Chicago                   
+Thirdly, Third                        Michaels        Chicago                   
+
+===
+Lab problem 9:
+===
+
+I would like to know the max salary for every department location
+
+View dropped.
+
+
+View created.
+
+
+   MAX_SAL DEP_LOC                                                              
+---------- ---------------                                                      
+      3000 Dallas                                                               
+      5000 New York                                                             
+      2850 Chicago                                                              
+      1100 Boston                                                               
+
+
+MIN(MAX_SAL)                                                                    
+------------                                                                    
+        1100                                                                    
+

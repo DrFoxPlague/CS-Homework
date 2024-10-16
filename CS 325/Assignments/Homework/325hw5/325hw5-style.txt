@@ -1,0 +1,15 @@
+Problem 1
+=========
+
+1a. An ORDER BY clause can only be used for an outermost SELECT statement
+    and must be indented to where it's clear that it belongs to that
+    select statement.
+
+1b. A GROUP BY clause can only be used when one has a good reason, like
+    1+ aggregate functions used.
+
+1c. Nested select statments must be within parentheses.
+
+1d. When it comes to EXISTS and NOT EXISTS, you will need an appropriate
+    correlation condition and to project a literal in its sub-select
+    argument

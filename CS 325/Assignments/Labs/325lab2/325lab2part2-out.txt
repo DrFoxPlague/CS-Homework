@@ -1,0 +1,100 @@
+
+Table dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+Describe GameWeapons:
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ WEAPON_NAME                               NOT NULL VARCHAR2(25)
+ WEAPON_DMG                                         NUMBER(5,2)
+ DMG_TYPE                                           VARCHAR2(20)
+ WEAPON_TYPE                                        VARCHAR2(20)
+ WEAPON_LVL                                         NUMBER(38)
+ MATERIAL_TYPE                                      VARCHAR2(20)
+
+Select GameWeapons:
+
+WEAPON_NAME               WEAPON_DMG DMG_TYPE             WEAPON_TYPE           
+------------------------- ---------- -------------------- --------------------  
+WEAPON_LVL MATERIAL_TYPE                                                        
+---------- --------------------                                                 
+Dakotas Dagger                234.53 void                 dagger                
+         3 obsidian                                                             
+                                                                                
+Peters Candy Cane                  3 sugar                candy cane            
+         9 candy                                                                
+                                                                                
+Andrews Bow                   176.34 lightning            bow                   
+         7 elderwood                                                            
+                                                                                
+
+WEAPON_NAME               WEAPON_DMG DMG_TYPE             WEAPON_TYPE           
+------------------------- ---------- -------------------- --------------------  
+WEAPON_LVL MATERIAL_TYPE                                                        
+---------- --------------------                                                 
+Trevors Large Rod             999.99 poison               staff                 
+       421 peasant bones                                                        
+                                                                                
+Michaels Gun                     295 fire                 firearm               
+        10 dragon bones                                                         
+                                                                                
+Kristians Dual Daggers        888.33 fire                 dual dagger           
+       100 steel                                                                
+                                                                                
+
+6 rows selected.
+
+
+Table dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+Describe GameWeapon_Enchantments:
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ WEAPON                                    NOT NULL VARCHAR2(25)
+ ENCH_NAME                                          VARCHAR2(25)
+ ENCH_LVL                                           NUMBER(38)
+
+Select GameWeapon_Enchantments:
+
+WEAPON                    ENCH_NAME                   ENCH_LVL                  
+------------------------- ------------------------- ----------                  
+Michaels Gun              Soul Stealing                      6                  
+Andrews Bow               Death Defying                     99                  
+Dakotas Dagger            Frostbite                          3                  
+Kristians Dual Daggers    Fire Breath                       23                  
+

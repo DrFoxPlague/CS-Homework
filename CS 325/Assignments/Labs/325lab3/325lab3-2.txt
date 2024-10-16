@@ -1,0 +1,18 @@
+Dakota Donner
+CS 325 - Lab 3 - Problem 2
+
+create table Painter
+(ptr_num        integer,
+ ptr_lname      varchar2(25),
+ ptr_fname      varchar2(25),
+ ptr_dob        DATE,
+ ptr_dod        DATE,
+ primary key    (ptr_num));
+
+ create table Painting
+ (painting_num      integer,
+  painting_title    varchar2(25),
+  ptg_year          integer,
+  ptr_num           integer,
+  primary key       (painting_num),
+  foreign key       (ptr_num) references Painter(ptr_num));

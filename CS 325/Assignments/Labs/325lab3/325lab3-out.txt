@@ -1,0 +1,30 @@
+NAME: Dakota Donner
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+  PART_NUM PART_NAME                 QUANTITY_ON_HAND      PRICE LEV LAST_INSP  
+---------- ------------------------- ---------------- ---------- --- ---------  
+     10603 hexagonal wrench                        13       9.99 XXX 15-AUG-21  
+     10604 tire                                   287      39.99 MMM 08-SEP-23  
+     10605 bubble gum                                     876.54                
+     10654 power cell                               5      325.6 PSC 12-JAN-23  
+
+
+ORDER_ CUST_NUM   PART_NUM ORDER_DAT   QUANTITY O D                             
+------ -------- ---------- --------- ---------- - -                             
+111111 11111111      10603 08-SEP-23          3 B U                             
+222222 22222222      10604 01-SEP-20          4 I P                             
+202301 20233621      10654 08-SEP-23          2 B F                             
+202302 20230908      10654 08-SEP-23          2 B P                             
+202303 20230901      10654 08-SEP-23          1 I F                             
+

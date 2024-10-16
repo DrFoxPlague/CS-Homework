@@ -1,0 +1,445 @@
+Homework 6
+by: Dakota Donner
+
+===
+Problem 3:
+===
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+CLIENT_NAME                      MOVIE_TITLE                               
+-------------------------------- ----------------------------------------  
+VID_FOR VID_RENTAL_PRICE                                                   
+------- ----------------                                                   
+Alpha, Ann                       It's a Wonderful Life                     
+DVD                 5.99                                                   
+                                                                           
+Alpha, Ann                       The Phantom Menace                        
+Blu-Ray             2.99                                                   
+                                                                           
+Beta, Bob                        Gone with the Wind                        
+DVD                 4.99                                                   
+                                                                           
+Beta, Bob                        The Muppet Movie                          
+DVD                 4.99                                                   
+                                                                           
+Beta, Bob                        Toy Story                                 
+DVD                 4.99                                                   
+                                                                           
+Beta, Edie                       Gone with the Wind                        
+Blu-Ray             2.99                                                   
+                                                                           
+Beta, Edie                       Indiana Jones and the Temple of Doom      
+Blu-Ray             2.19                                                   
+                                                                           
+Beta, Edie                       Star Wars                                 
+HD-DVD               .99                                                   
+                                                                           
+                                  CS 325
+                                Homework 6
+
+Fri Dec 08                                                        page    2
+                                  CS 325
+                                Homework 6
+
+CLIENT_NAME                      MOVIE_TITLE                               
+-------------------------------- ----------------------------------------  
+VID_FOR VID_RENTAL_PRICE                                                   
+------- ----------------                                                   
+Carlos, Ann                      Gone with the Wind                        
+DVD                 4.99                                                   
+                                                                           
+Carlos, Ann                      Gone with the Wind                        
+Blu-Ray             2.99                                                   
+                                                                           
+Carlos, Ann                      Toy Story 2                               
+Blu-Ray             2.99                                                   
+                                                                           
+Carlos, Ann                      One Flew Over the Cuckoo's Nest           
+Blu-Ray             2.19                                                   
+                                                                           
+Carlos, Ann                      Indiana Jones and the Temple of Doom      
+HD-DVD               .99                                                   
+                                                                           
+Delta, David                     Gone with the Wind                        
+Blu-Ray             2.99                                                   
+                                                                           
+Epsilon, Emma                    Gone with the Wind                        
+DVD                 4.99                                                   
+                                                                           
+Epsilon, Emma                    Indiana Jones and the Temple of Doom      
+HD-DVD               .99                                                   
+                                                                           
+                                  CS 325
+                                Homework 6
+
+Fri Dec 08                                                        page    3
+                                  CS 325
+                                Homework 6
+
+CLIENT_NAME                      MOVIE_TITLE                               
+-------------------------------- ----------------------------------------  
+VID_FOR VID_RENTAL_PRICE                                                   
+------- ----------------                                                   
+Feta, Frank                      The Muppet Movie                          
+DVD                 4.99                                                   
+                                                                           
+Feta, Frank                      The Muppet Movie                          
+DVD                 4.99                                                   
+                                                                           
+Feta, Frank                      Gone with the Wind                        
+Blu-Ray             2.99                                                   
+                                                                           
+Greta, Gail                      Indiana Jones and the Temple of Doom      
+DVD                 3.99                                                   
+                                                                           
+Harpo, Harry                     Star Wars                                 
+DVD                 3.99                                                   
+                                                                           
+Harpo, Harry                     The Empire Strikes Back                   
+HD-DVD              1.29                                                   
+                                                                           
+Harpo, Harry                     Star Wars                                 
+HD-DVD               .99                                                   
+                                                                           
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 4:
+===
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Client          Movie Title                           Format  Rental Price 
+--------------- ------------------------------------- ------- ------------ 
+Alpha, Ann      It's a Wonderful Life                 DVD            $5.99 
+Alpha, Ann      The Phantom Menace                    Blu-Ray        $2.99 
+Beta, Bob       Gone with the Wind                    DVD            $4.99 
+Beta, Bob       The Muppet Movie                      DVD            $4.99 
+Beta, Bob       Toy Story                             DVD            $4.99 
+Beta, Edie      Gone with the Wind                    Blu-Ray        $2.99 
+Beta, Edie      Indiana Jones and the Temple of Doom  Blu-Ray        $2.19 
+Beta, Edie      Star Wars                             HD-DVD          $.99 
+Carlos, Ann     Gone with the Wind                    DVD            $4.99 
+Carlos, Ann     Gone with the Wind                    Blu-Ray        $2.99 
+Carlos, Ann     Toy Story 2                           Blu-Ray        $2.99 
+Carlos, Ann     One Flew Over the Cuckoo's Nest       Blu-Ray        $2.19 
+Carlos, Ann     Indiana Jones and the Temple of Doom  HD-DVD          $.99 
+Delta, David    Gone with the Wind                    Blu-Ray        $2.99 
+Epsilon, Emma   Gone with the Wind                    DVD            $4.99 
+Epsilon, Emma   Indiana Jones and the Temple of Doom  HD-DVD          $.99 
+Feta, Frank     The Muppet Movie                      DVD            $4.99 
+Feta, Frank     The Muppet Movie                      DVD            $4.99 
+Feta, Frank     Gone with the Wind                    Blu-Ray        $2.99 
+Greta, Gail     Indiana Jones and the Temple of Doom  DVD            $3.99 
+Harpo, Harry    Star Wars                             DVD            $3.99 
+Harpo, Harry    The Empire Strikes Back               HD-DVD         $1.29 
+Harpo, Harry    Star Wars                             HD-DVD          $.99 
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 5:
+===
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+CATEGORY_N  VID_COUNT   AVG_RENT                                           
+---------- ---------- ----------                                           
+Action             20      3.125                                           
+Family             10       3.79                                           
+Classic             6 3.32333333                                           
+Drama               5       2.01                                           
+Comedy              1       1.99                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 6:
+===
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Category   # Videos Avg Price                                              
+---------- -------- ---------                                              
+Action           20     $3.13                                              
+Family           10     $3.79                                              
+Classic           6     $3.32                                              
+Drama             5     $2.01                                              
+Comedy            1     $1.99                                              
+
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 7:
+===
+7a
+~~~
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Category   # Videos Avg Price                                              
+---------- -------- ---------                                              
+Action           20     $3.00                                              
+Family           10     $3.67                                              
+Classic           6     $3.16                                              
+Drama             5     $1.81                                              
+Comedy            1     $1.99                                              
+
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+7b
+~~~
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Client                                                                     
+---------------                                                            
+Beta, Bob                                                                  
+Beta, Edie                                                                 
+Carlos, Ann                                                                
+Delta, David                                                               
+Epsilon, Emma                                                              
+Feta, Frank                                                                
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+7c
+~~~
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Client                                                                     
+---------------                                                            
+Beta, Bob                                                                  
+Carlos, Ann                                                                
+Delta, David                                                               
+Epsilon, Emma                                                              
+Feta, Frank                                                                
+
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+7d
+~~~
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Client          RENTAL_COUNT                                               
+--------------- ------------                                               
+Carlos, Ann                5                                               
+Beta, Bob                  3                                               
+Feta, Frank                3                                               
+Harpo, Harry               3                                               
+Alpha, Ann                 2                                               
+Epsilon, Emma              2                                               
+Delta, David               1                                               
+Greta, Gail                1                                               
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 8:
+===
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Client          Movie Title                                                
+--------------- -------------------------------------                      
+Alpha, Ann      It's a Wonderful Life                                      
+                The Phantom Menace                                         
+                                                                           
+Beta, Bob       Gone with the Wind                                         
+                The Muppet Movie                                           
+                Toy Story                                                  
+                                                                           
+Beta, Edie      Gone with the Wind                                         
+                Indiana Jones and the Temple of Doom                       
+                Star Wars                                                  
+                                                                           
+Carlos, Ann     Gone with the Wind                                         
+                Indiana Jones and the Temple of Doom                       
+                One Flew Over the Cuckoo's Nest                            
+                Toy Story 2                                                
+                                                                           
+Delta, David    Gone with the Wind                                         
+                                                                           
+Epsilon, Emma   Gone with the Wind                                         
+                Indiana Jones and the Temple of Doom                       
+                                                                           
+Feta, Frank     Gone with the Wind                                         
+                The Muppet Movie                                           
+                                                                           
+Greta, Gail     Indiana Jones and the Temple of Doom                       
+                                                                           
+Harpo, Harry    Star Wars                                                  
+                The Empire Strikes Back                                    
+                                                                           
+
+
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 9:
+===
+
+Fri Dec 08                                                        page    1
+                                  CS 325
+                                Homework 6
+
+Client          Movie Title                           Format  Rental Price 
+--------------- ------------------------------------- ------- ------------ 
+Alpha, Ann      It's a Wonderful Life                 DVD            $5.99 
+                The Phantom Menace                    Blu-Ray        $2.99 
+***************                                               ------------ 
+avg                                                                  $4.49 
+                                                                           
+Beta, Bob       Gone with the Wind                    DVD            $4.99 
+                The Muppet Movie                      DVD            $4.99 
+                Toy Story                             DVD            $4.99 
+***************                                               ------------ 
+avg                                                                  $4.99 
+                                                                           
+Beta, Edie      Gone with the Wind                    Blu-Ray        $2.99 
+                Indiana Jones and the Temple of Doom  Blu-Ray        $2.19 
+                Star Wars                             HD-DVD          $.99 
+***************                                               ------------ 
+avg                                                                  $2.06 
+                                                                           
+Carlos, Ann     Gone with the Wind                    Blu-Ray        $2.99 
+                Gone with the Wind                    DVD            $4.99 
+                Indiana Jones and the Temple of Doom  HD-DVD          $.99 
+                One Flew Over the Cuckoo's Nest       Blu-Ray        $2.19 
+                Toy Story 2                           Blu-Ray        $2.99 
+***************                                               ------------ 
+avg                                                                  $2.83 
+                                                                           
+Delta, David    Gone with the Wind                    Blu-Ray        $2.99 
+***************                                               ------------ 
+avg                                                                  $2.99 
+                                                                           
+Epsilon, Emma   Gone with the Wind                    DVD            $4.99 
+                Indiana Jones and the Temple of Doom  HD-DVD          $.99 
+***************                                               ------------ 
+avg                                                                  $2.99 
+                                                                           
+Feta, Frank     Gone with the Wind                    Blu-Ray        $2.99 
+                The Muppet Movie                      DVD            $4.99 
+                                  CS 325
+                                Homework 6
+
+Fri Dec 08                                                        page    2
+                                  CS 325
+                                Homework 6
+
+Client          Movie Title                           Format  Rental Price 
+--------------- ------------------------------------- ------- ------------ 
+Feta, Frank     The Muppet Movie                      DVD            $4.99 
+***************                                               ------------ 
+avg                                                                  $4.32 
+                                                                           
+Greta, Gail     Indiana Jones and the Temple of Doom  DVD            $3.99 
+***************                                               ------------ 
+avg                                                                  $3.99 
+                                                                           
+Harpo, Harry    Star Wars                             HD-DVD          $.99 
+                Star Wars                             DVD            $3.99 
+                The Empire Strikes Back               HD-DVD         $1.29 
+***************                                               ------------ 
+avg                                                                  $2.09 
+                                                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  CS 325
+                                Homework 6
+===
+Problem 10:
+===

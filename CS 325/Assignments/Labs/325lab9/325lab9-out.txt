@@ -1,0 +1,94 @@
+By: Dakota Donner
+
+===
+Lab query 1:
+===
+
+EMPL_LAST_NAME  JOB_TITLE  HIREDATE                                             
+--------------- ---------- ---------                                            
+Adams           Clerk      23-SEP-18                                            
+Ford            Analyst    03-DEC-12                                            
+Jones           Manager    02-APR-12                                            
+Martin          Sales      28-SEP-18                                            
+Michaels        Sales      20-FEB-18                                            
+Scott           Analyst    09-NOV-18                                            
+Smith           Clerk      17-DEC-12                                            
+Turner          Sales      08-SEP-19                                            
+Ward            Sales      22-FEB-19                                            
+
+9 rows selected.
+
+===
+Lab query 2:
+===
+
+CUST_FNAME      CUST_LNAME           CUST_BALANCE                               
+--------------- -------------------- ------------                               
+First           Firstly                   1111.11                               
+Second          Secondly                    222.2                               
+Third           Thirdly                         0                               
+
+===
+Lab query 3:
+===
+
+EMPL_LAST_NAME  Total Recompense                                                
+--------------- ----------------                                                
+Adams                       1100                                                
+Blake                       2850                                                
+Ford                        3000                                                
+James                        950                                                
+Jones                       2975                                                
+King                        5000                                                
+Martin                      2650                                                
+Michaels                    1900                                                
+Miller                      1300                                                
+Raimi                       2450                                                
+Scott                       3000                                                
+
+EMPL_LAST_NAME  Total Recompense                                                
+--------------- ----------------                                                
+Smith                        800                                                
+Turner                      1500                                                
+Ward                        1750                                                
+
+14 rows selected.
+
+===
+Lab query 4:
+===
+Enter value for dept_name: 'Accounting'
+old   6:        where dept_name = &dept_name)
+new   6:        where dept_name = 'Accounting')
+
+EMPL_LAST_NAME  JOB_TITLE                                                       
+--------------- ----------                                                      
+Raimi           Manager                                                         
+Miller          Clerk                                                           
+
+===
+Lab query 5:
+===
+Enter value for job_title: 'Sales'
+old   6:        where job_title = &job_title)
+new   6:        where job_title = 'Sales')
+
+CUST_FNAME      CUST_LNAME                                                      
+--------------- --------------------                                            
+First           Firstly                                                         
+Second          Secondly                                                        
+Third           Thirdly                                                         
+
+===
+Lab query 6:
+===
+What is the last name and job title with salaries lesser than what the user enters?
+Enter value for salary: 1000
+old   3: where salary < &salary
+new   3: where salary < 1000
+
+EMPL_LAST_NAME  JOB_TITLE                                                       
+--------------- ----------                                                      
+Smith           Clerk                                                           
+James           Clerk                                                           
+

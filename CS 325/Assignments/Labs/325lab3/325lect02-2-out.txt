@@ -1,0 +1,105 @@
+
+Howdy there CS 325
+
+from    stuff
+        *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+
+hey about to demo forward slash
+from    stuff
+        *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+
+drop table parts cascade constraints
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+drop table part_orders cascade constraints
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+*** describe parts: ***
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PART_NUM                                  NOT NULL NUMBER(38)
+ PART_NAME                                 NOT NULL VARCHAR2(25)
+ QUANTITY_ON_HAND                                   NUMBER(38)
+ PRICE                                              NUMBER(6,2)
+ LEVEL_CODE                                         CHAR(3)
+ LAST_INSPECTED                                     DATE
+
+*** describe part_orders: ***
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ORDER_NUM                                 NOT NULL CHAR(6)
+ CUST_NUM                                  NOT NULL CHAR(8)
+ PART_NUM                                  NOT NULL NUMBER(38)
+ ORDER_DATE                                         DATE
+ QUANTITY                                  NOT NULL NUMBER(38)
+ ORDER_CODE                                         CHAR(1)
+ DELIVERY_CODE                             NOT NULL CHAR(1)
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+========
+Look at error message you get when you put a too-long string for
+a varchar2 column:
+========
+(10602, '5/8 in lug nut from Argentina or Brazil', 1000, 0.02, '00X', sysdate)
+        *
+ERROR at line 3:
+ORA-12899: value too large for column "DD339"."PARTS"."PART_NAME" (actual: 39, 
+maximum: 25) 
+
+
+
+1 row created.
+
+========
+Look at error message you get when you try to insert a row
+with a foreign key value NOT in the referenced (parent) table:
+========
+insert into part_orders
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (DD339.SYS_C001821864) violated - parent key 
+not found 
+
+
+
+1 row created.
+
+
+  PART_NUM PART_NAME                 QUANTITY_ON_HAND      PRICE LEV LAST_INSP  
+---------- ------------------------- ---------------- ---------- --- ---------  
+     10603 hexagonal wrench                        13       9.99 XXX 15-AUG-21  
+     10604 tire                                   287      39.99 MMM 08-SEP-23  
+     10605 bubble gum                                     876.54                
+
+
+ORDER_ CUST_NUM   PART_NUM ORDER_DAT   QUANTITY O D                             
+------ -------- ---------- --------- ---------- - -                             
+111111 11111111      10603 08-SEP-23          3 B U                             
+222222 22222222      10604 01-SEP-20          4 I P                             
+
